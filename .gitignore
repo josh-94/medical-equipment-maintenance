@@ -1,0 +1,75 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+*.releaseBackup
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+*.ipr
+*.code-workspace
+
+# Build
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Gradle
+.gradle/
+build/
+
+# Spring Boot
+application-*.properties
+!application.properties
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if using frontend)
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+*.war
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+.idea/
+*.iml
+*.iws
+.vscode/
+.env
+"@ | Out-File -FilePath .gitignore -Encoding utf8
